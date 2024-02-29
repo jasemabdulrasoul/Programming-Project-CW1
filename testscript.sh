@@ -37,7 +37,7 @@ else
 fi
 
 echo -n "Testing width or height < 5 - "
-./maze Data/width_less5.txt > tmp
+./maze Data/height_less5.txt > tmp
 if grep -q "Error: Invalid maze format" tmp;
 then
     echo "PASS"
@@ -47,7 +47,7 @@ else
 fi
 
 echo -n "Testing width or height > 100 - "
-./maze Data/height_more100.txt > tmp
+./maze Data/width_more100.txt > tmp
 if grep -q "Error: Invalid maze format" tmp;
 then
     echo "PASS"
@@ -151,7 +151,7 @@ else
 fi
 
 echo -n "Testing successful message when reaching E - "
-./maze data/good_maze2.txt < Input/solved.in > tmp
+./maze data/good_maze.txt < Input/solved.in > tmp
 if grep -q "Congratulations! You win" tmp;
 then
     echo "PASS"
