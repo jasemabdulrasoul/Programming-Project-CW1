@@ -26,14 +26,14 @@ Total tests = 14
 
 * Errors/Messages regarding each test/section:
   - Argument Check:
-    . "Usage: maze <filename>"
+    - "Usage: maze <filename>"
   - File Handling:
-    . "Error: File is empty"
-    . "Error: Invalid maze format"
+    - "Error: File is empty"
+    - "Error: Invalid maze format"
   - Inputs:
-     . "Error: Invalid input"
-     . "Error: Invalid movement"
-     . "You are here."
+     - "Error: Invalid input"
+     - "Error: Invalid movement"
+     - "You are here."
   - Successful:
-     . "Maze successfuly loaded
-     . "Congratulations! You win."
+     - "Maze successfuly loaded
+     - "Congratulations! You win."
