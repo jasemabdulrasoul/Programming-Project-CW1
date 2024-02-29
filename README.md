@@ -17,12 +17,13 @@ Test Plan
  - Wrong input
  - Moving into wall
  - Moving off the edge
+ - Testing map
 
 4- Successful:
  - Successful maze format
  - Successful message when reaching "E"
 
-Total tests = 14
+Total tests = 15
 
 * Errors/Messages regarding each test/section:
   - Argument Check:
@@ -35,5 +36,5 @@ Total tests = 14
      - "Error: Invalid movement"
      - "You are here."
   - Successful:
-     - "Maze successfuly loaded
+     - "Maze successfully loaded
      - "Congratulations! You win."
