@@ -11,7 +11,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing 2 arguments - "
@@ -21,7 +20,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -e "File Handling"
@@ -33,7 +31,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing width or height < 5 - "
@@ -43,7 +40,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing width or height > 100 - "
@@ -53,7 +49,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing rows not equal in length - "
@@ -63,7 +58,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing columns not equal in length - "
@@ -73,7 +67,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing additional characters - "
@@ -83,7 +76,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing missing characters - "
@@ -93,7 +85,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -e "Testing Inputs"
@@ -105,7 +96,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing hitting a wall - "
@@ -115,7 +105,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing moving off the edge - "
@@ -125,7 +114,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing map - "
@@ -135,7 +123,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -e "Successful Tests"
@@ -147,7 +134,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
 
 echo -n "Testing successful message when reaching E - "
@@ -157,5 +143,6 @@ then
     echo "PASS"
 else
     echo "FAIL"
-    cat tmp
 fi
+
+rm -f tmp
